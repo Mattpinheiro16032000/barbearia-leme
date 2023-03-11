@@ -1,0 +1,278 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&display=swap');
+/* font-family: 'Josefin Sans', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+    border-bottom: 1px solid grey;
+
+
+
+}
+
+
+/*----LOGO DA NAV----*/
+div.logo h1, h2, h3{
+    color: white;
+    text-align: center;
+}
+
+div.logo:hover {
+    cursor: pointer;
+}
+
+div.logo h1 {
+    font-size: 32px;
+
+}
+
+div.logo h2 {
+    font-size: 18px;
+
+}
+
+div.logo h3 {
+    font-size: 15px;
+
+}
+/*----LOGO DA NAV 01----*/
+
+
+
+/*----LOGO DA NAV 02----*/
+
+/* div.logo {
+    border: 1px solid wheat;
+    }
+
+
+div.logo img{
+    display: inline-flex;
+    width: 120px;
+    height: 120px;
+
+    } */
+
+
+
+
+
+/*----LOGO DA NAV 02----*/
+
+
+/*-----MENU NAV-----*/
+ul.menu li{
+    float: left;
+
+}
+
+
+ul.menu li:not(:last-child){
+    margin-right: 25px;
+    /*foi mexido a margin para alinhar com a foto do danilo em baixo*/
+}
+
+
+/* ul.menu li{
+    margin-left: 10px;
+} */
+
+
+
+
+
+ul.menu li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+    /* background-color: rgba(9, 45, 96, 0.687); */
+
+
+}
+
+ul.menu li:hover a {
+    background-color: rgba(173, 14, 14, 0.687);
+    border-radius: 17px;
+    font-weight: bold;
+    font-size: 23px;
+    padding: 12px 10px 12px 10px;
+    transition: all .3s;
+
+}
+/*-----MENU NAV-----*/
+
+
+
+
+
+/*-----HEADER-----*/
+
+header{
+    color: white;
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: nowrap ;
+
+    padding-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 2%;
+
+    background-color: rgba(0, 0, 0, 0.246);
+
+    border-bottom: 1px solid grey;
+
+
+}
+
+
+
+div.conteudo-sobre{
+    /* border: 1px solid white; */
+
+    flex: 35%;
+    padding: 40px 40px 40px 40px;
+
+    text-align: left;
+}
+
+
+div.conteudo-sobre h2{
+    text-align: left;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.conteudo-sobre p{
+    transition: .3s all;
+}
+
+div.conteudo-sobre p:hover {
+    color: rgba(173, 14, 14, 0.687);
+}    /* mudando a cor dos 'paragrafos' */
+
+
+
+
+div.conteudo-sobre h3{
+    text-align: left;
+    margin-top: 25px;
+    font-size: 25px;
+
+    transition: .3s all;
+}
+
+div.conteudo-sobre h3:hover {
+    color: rgba(173, 14, 14, 0.687);
+    font-size: 30px;
+    cursor: pointer;
+    
+} /* mudando a cor da frase 'Deus Seja Louvado' */
+
+
+#parag-cima{
+    line-height: 25px;
+}
+
+#parag-meio{
+    line-height: 25px;
+
+}
+
+#parag-final{
+    line-height: 25px;
+}
+
+
+
+div.img-sobre{
+    /* border: 1px solid white; */
+    /* height: auto; */
+    flex: 35%;
+    text-align: right;
+}
+
+div.img-sobre img{
+    border-radius: 40px;
+    width: 400px;
+    height: 380px;
+}
+
+
+/*------------SEMI-RODAPÉ-----------*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    width: 100vw;
+}
+
+div.rodape {
+    /* border: 1px solid white; */
+    /* text-align: left; */
+
+    /* margin-left: 10%; */
+
+    /* position: absolute;
+    top: 480px; */
+
+
+}
+
+div.rodape a{
+    font-size: 30px;
+    /* padding: 15px 15px 15px 0px; */
+    padding-right: 25px;
+
+    color: blue;
+
+    transition: all .4s;
+}
+
+div.rodape a:hover{
+    font-size: 50px;
+    
+    /* margin: auto; */
+    color: red;
+
+
+}
+
+
+
+
